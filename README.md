@@ -1,41 +1,29 @@
 # Weather Forecast App
 
-This is a React + Vite + TypeScript sample app based on https://www.youtube.com/watch?v=uG5Vcjr5vxQ that shows the current weather and a 5-day forecast for any city or zip code, using the OpenWeather API.
+This is a React + Vite + TypeScript sample app based on a [Visual Studio Code Agent Mode Demo](https://www.youtube.com/watch?v=uG5Vcjr5vxQ) that shows the current weather and a 5-day forecast for any city or zip code, using the OpenWeather API.
 
 ## Features
 
 - Responsive design for mobile and desktop
-- Search by city name or zip code
+- Search by city name
 - Uses browser geolocation to show weather for your current location by default
 - Shows current weather and 5-day forecast
 - Background changes based on weather
-- Loading and error states
-- Settings panel:
-  - Toggle units (Celsius/Fahrenheit)
-  - Toggle theme (light/dark)
-  - Font size slider
-  - Language dropdown (English, Spanish, French)
-- Accessible and uses semantic HTML
-- Functional React components and hooks
-- TypeScript throughout
-- Styled with styled-components
-- API keys and secrets via environment variables
-- ESLint and Prettier for code quality
-- Unit tests for key components and utilities
 
 ## Setup
 
 1. Clone this repo
 2. Run `npm install`
-3. Copy `.env.sample` to `.env` and add your OpenWeather API key:
+3. Get an OpenWeather API key (Free tier is fine for test purposes).
+4. Copy `.env.sample` to `.env` and add your OpenWeather API key:
    ```
    VITE_OPENWEATHER_API_KEY=your_api_key_here
    ```
-4. Start the dev server:
+5. Start the dev server:
    ```
    npm run dev
    ```
-5. Open [http://localhost:5173](http://localhost:5173) in your browser
+6. Open [http://localhost:5173](http://localhost:5173) in your browser
 
 ## Scripts
 
@@ -54,7 +42,7 @@ npm test
 
 ## Notes
 
-- Do **not** commit your `.env` file to version control.
+- Do **not** commit your `.env` file to version control. It is in the `.gitignore` file to avoid accidents.
 - Works in latest Chrome, Firefox, and Safari.
 
 ---
