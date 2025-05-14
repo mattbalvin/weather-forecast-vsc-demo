@@ -27,7 +27,7 @@ This is a React + Vite + TypeScript app that shows the current weather and a 5-d
 
 1. Clone this repo
 2. Run `npm install`
-3. Copy `.env` and add your OpenWeather API key:
+3. Copy `.env.sample` to `.env` and add your OpenWeather API key:
    ```
    VITE_OPENWEATHER_API_KEY=your_api_key_here
    ```
