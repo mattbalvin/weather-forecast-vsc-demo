@@ -1,6 +1,6 @@
 # Weather Forecast App
 
-This is a React + Vite + TypeScript app that shows the current weather and a 5-day forecast for any city or zip code, using the OpenWeather API.
+This is a React + Vite + TypeScript sample app based on https://www.youtube.com/watch?v=uG5Vcjr5vxQ that shows the current weather and a 5-day forecast for any city or zip code, using the OpenWeather API.
 
 ## Features
 
